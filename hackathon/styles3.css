@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://img3.wallspic.com/attachments/originals/2/0/8/8/28802-light_blue-blue-design-geometry-polygon-3000x2000.jpg");
+    background-size: cover;
+}
+
+.choices {
+    margin-bottom: 10px;
+  font-size: 120%;
+  width: 40%;
+  height: 200%;
+  margin-left: 400px;
+  text-align: start;
+  padding: 15px 0;
+  padding-right: 50px;
+  padding-left: 5px;
+  border: 2px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px white;
+  background-color: transparent;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: bold;
+  text-shadow: 5cm;
+  }
+
+  .choices:hover {
+    background: rgb(182, 182, 247);
+  }
+
+  input:checked+label>choices {
+    background: rgb(155, 213, 247);
+  }
+
+  input{
+    display: none
+  }
+  input:checked+label>.choices {
+    background-color: rgb(155, 213, 247) !important;
+  }
+
+.first h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 90px;
+    color: #012169;
+    margin-bottom: 90px;
+    font-family: 'Kalam', cursive;
+    font-size: 200%;
+}
+
+
+#sub {
+    margin-left: 650px;
+    border: 1px solid skyblue;
+    box-shadow: 0 0 5px white;
+    padding: 10px 20px;
+    background-color: skyblue;
+    font-size: 120%;
+    margin-top: 30px;
+}
+
+.flast {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: light;
+
+}
+
+.flast h1, h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
